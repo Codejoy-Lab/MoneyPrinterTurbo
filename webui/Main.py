@@ -18,13 +18,13 @@ import platform
 import streamlit.components.v1 as components
 from loguru import logger
 
-st.set_page_config(page_title="MoneyPrinterTurbo",
+st.set_page_config(page_title="酷爱科技-Cool AI",
                    page_icon="🤖",
                    layout="wide",
                    initial_sidebar_state="auto",
                    menu_items={
                        'Report a bug': "https://github.com/harry0703/MoneyPrinterTurbo/issues",
-                       'About': "# MoneyPrinterTurbo\nSimply provide a topic or keyword for a video, and it will "
+                       'About': "# Codejoy AI Video Creator\nSimply provide a topic or keyword for a video, and it will "
                                 "automatically generate the video copy, video materials, video subtitles, "
                                 "and video background music before synthesizing a high-definition short "
                                 "video.\n\nhttps://github.com/harry0703/MoneyPrinterTurbo"
@@ -40,7 +40,7 @@ hide_streamlit_style = """
 <style>#root > div:nth-child(1) > div > div > div > div > section > div {padding-top: 0rem;}</style>
 """
 st.markdown(hide_streamlit_style, unsafe_allow_html=True)
-st.title(f"MoneyPrinterTurbo v{config.project_version}")
+st.title("Cool AI 📺Video Creator")
 
 support_locales = ["zh-CN", "zh-HK", "zh-TW", "de-DE", "en-US", "fr-FR", "vi-VN", "th-TH"]
 
